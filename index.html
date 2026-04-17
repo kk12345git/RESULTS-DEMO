@@ -8,31 +8,42 @@
 </head>
 <body>
     <div class="container">
-        <!-- HEADER (Shared) -->
+        <!-- HEADER -->
         <header class="header">
             <div class="logo-container">
-                <img src="University-of-Madras new.png" alt="University of Madras Logo" class="logo" id="univ-logo">
+                <img src="crest.png" alt="University of Madras Logo" class="logo">
             </div>
-            <h1 class="university-name">University of<br>Madras</h1>
+            <div class="name-container">
+                <h1 class="university-name">University of Madras</h1>
+            </div>
         </header>
+
+        <div class="sub-container">
+            <h2 class="exam-title">November - 2025 UG/PG/PROF. Examination Results.<br>Published on 27-02-2026</h2>
+        </div>
 
         <!-- LOGIN VIEW -->
         <div id="login-view">
             <div class="login-box">
-                <h3 class="exam-title-small">November - 2025 UG/PG/PROF. Examination Results.</h3>
-                <div class="login-form">
-                    <div class="form-row">
-                        <label class="form-label">Register Number :</label>
-                        <input type="text" id="input-reg" class="login-input" maxlength="15">
-                    </div>
-                    <div class="form-row">
-                        <label class="form-label">D.O.B. (DD/MM/YYYY) :</label>
-                        <input type="text" id="input-dob" class="login-input" placeholder="DD/MM/YYYY" maxlength="10">
-                    </div>
-                    <div class="form-actions">
-                        <button id="btn-submit" class="btn">Get Result</button>
-                    </div>
-                </div>
+                <table class="login-table">
+                    <tr>
+                        <td class="form-label">Register Number:</td>
+                        <td><input type="text" id="input-reg" class="login-input" maxlength="15"></td>
+                    </tr>
+                    <tr>
+                        <td class="form-label">Date of Birth:</td>
+                        <td>
+                            <input type="text" id="input-dob" class="login-input" maxlength="10">
+                            <span class="format-hint">(DD/MM/YYYY)</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="form-actions">
+                            <button id="btn-submit" class="btn">Get Result</button>
+                            <button id="btn-clear" class="btn">Clear</button>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
 

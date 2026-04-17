@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const displayDob = document.getElementById('display-dob');
     
     const btnSubmit = document.getElementById('btn-submit');
+    const btnClear = document.getElementById('btn-clear');
     const btnPrint = document.getElementById('btn-print');
     const btnReset = document.getElementById('btn-reset');
 
@@ -35,7 +36,14 @@ document.addEventListener('DOMContentLoaded', () => {
         window.scrollTo(0, 0);
     });
 
-    // Reset Logic
+    // Clear Button Logic
+    btnClear.addEventListener('click', () => {
+        inputReg.value = '';
+        inputDob.value = '';
+        inputReg.focus();
+    });
+
+    // Reset Logic (Get another result)
     btnReset.addEventListener('click', () => {
         // Clear inputs
         inputReg.value = '';
