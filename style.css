@@ -152,12 +152,12 @@ body {
 }
 
 .profile-main-info {
-    background-color: #A6A8F1; /* Exact Light Purple from screenshot */
+    background-color: #FFFFFF; /* Plain white like reference screenshot */
     padding: 3px 10px;
     display: flex;
     justify-content: space-between;
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif; /* Clean font for labels */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .dob-bar {
@@ -175,25 +175,25 @@ body {
 
 .label {
     font-weight: bold;
-    color: #000080; /* Blueish labels in purple bar */
+    color: #000000; /* Black labels matching reference */
 }
 
 .value {
     font-weight: bold;
     margin-left: 5px;
-    font-family: "Times New Roman", Times, serif; /* Values in Serif */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .value.name {
-    color: #E81D8D; /* Exact Magenta/Pink from screenshot */
+    color: #000000; /* Black name text matching reference */
 }
 
 .value.reg-num {
-    color: #E01B22; /* Exact Red from screenshot */
+    color: #000000; /* Black register number matching reference */
 }
 
 .value.dob {
-    color: #822934; /* Exact Maroon from screenshot */
+    color: #000000; /* Black DOB matching reference */
 }
 
 /* Table */
@@ -225,16 +225,16 @@ body {
 }
 
 .result-pass {
-    color: #006400; /* Dark green for PASS */
+    color: #000000; /* Black - matching reference screenshot */
     font-weight: bold;
 }
 
 .results-table tr:nth-child(odd) {
-    background-color: #98FB98; /* Alternate green rows */
+    background-color: #FFFFFF; /* White rows for odd */
 }
 
 .results-table tr:nth-child(even) {
-    background-color: #FFFFFF; /* Alternate white rows */
+    background-color: #98FB98; /* Light green rows for even */
 }
 
 .results-table thead tr {
