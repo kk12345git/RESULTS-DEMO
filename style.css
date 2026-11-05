@@ -54,53 +54,55 @@ body {
 
 /* LOGIN BOX */
 #login-view {
-    margin-top: 20px;
+    margin-top: 15px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .login-box {
-    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent like the original site's small table background */
-    border: 0.5px solid #767676;
-    padding: 1px;
+    padding: 0;
 }
 
 .login-table {
     border-collapse: collapse;
-    width: 100%;
-    max-width: 450px;
+    width: auto;
+    border: 1px solid #8FA0C8;
+    background-color: transparent;
 }
 
 .login-table td {
-    padding: 5px 10px;
-    font-size: 13px;
+    border: 1px solid #8FA0C8;
+    padding: 3px 6px;
+    font-size: 12px;
     color: #000;
 }
 
 .form-label {
     font-weight: bold;
-    text-align: right;
-    width: 140px;
+    text-align: left;
+    white-space: nowrap;
+    padding-right: 15px;
 }
 
 .login-input {
     border: 1px solid #767676;
-    padding: 2px;
-    width: 150px;
+    padding: 1px 3px;
+    width: 160px;
     font-family: inherit;
-    font-size: 13px;
+    font-size: 12px;
+    background-color: #FFFFFF;
 }
 
 .format-hint {
     font-size: 11px;
     color: #000;
-    margin-left: 5px;
+    margin-left: 3px;
 }
 
 .form-actions {
     text-align: center;
-    padding: 10px !important;
+    padding: 4px 6px !important;
 }
 
 .btn {
@@ -108,8 +110,8 @@ body {
     background-color: #EFEFEF;
     border: 1px solid #767676;
     cursor: pointer;
-    font-size: 13px;
-    margin: 0 5px;
+    font-size: 12px;
+    margin: 0 4px;
 }
 
 .btn:hover {
@@ -124,23 +126,6 @@ body {
     .exam-title {
         font-size: 14px;
         padding: 0 10px;
-    }
-    .login-table td {
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding: 5px 0;
-    }
-    .form-label {
-        text-align: center;
-        width: 100%;
-    }
-    .login-input {
-        width: 80%;
-    }
-    .format-hint {
-        display: block;
-        margin-top: 5px;
     }
 }
 
@@ -185,11 +170,11 @@ body {
 }
 
 .value.name {
-    color: #E81D8D; /* Magenta name from first screenshot */
+    color: #E01B22; /* Red matching user request */
 }
 
 .value.reg-num {
-    color: #6A0DAD; /* Purple register number from first screenshot */
+    color: #E01B22; /* Red matching user request */
 }
 
 .value.dob {
