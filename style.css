@@ -224,6 +224,11 @@ body {
     font-weight: bold;
 }
 
+.result-pass {
+    color: #006400; /* Dark green for PASS */
+    font-weight: bold;
+}
+
 .results-table tr:nth-child(odd) {
     background-color: #98FB98; /* Alternate green rows */
 }
