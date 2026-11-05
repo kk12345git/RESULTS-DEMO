@@ -1,5 +1,5 @@
 body {
-    background-color: #DDE4F8; /* Lavender background from screenshot */
+    background-color: #D0DAF5; /* Background color from user */
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -152,7 +152,7 @@ body {
 }
 
 .profile-main-info {
-    background-color: #FFFFFF; /* Plain white like reference screenshot */
+    background-color: #A6A8F1; /* Light Purple from first screenshot */
     padding: 3px 10px;
     display: flex;
     justify-content: space-between;
@@ -161,7 +161,7 @@ body {
 }
 
 .dob-bar {
-    background-color: #FFFFDF; /* Exact Light Yellow from screenshot */
+    background-color: #FFFEDF; /* Yellow code from user */
     padding: 3px 10px;
     border-top: 1px solid #777;
     font-size: 14px;
@@ -175,7 +175,7 @@ body {
 
 .label {
     font-weight: bold;
-    color: #000000; /* Black labels matching reference */
+    color: #000080; /* Navy blue labels from first screenshot */
 }
 
 .value {
@@ -185,15 +185,15 @@ body {
 }
 
 .value.name {
-    color: #000000; /* Black name text matching reference */
+    color: #E81D8D; /* Magenta name from first screenshot */
 }
 
 .value.reg-num {
-    color: #000000; /* Black register number matching reference */
+    color: #6A0DAD; /* Purple register number from first screenshot */
 }
 
 .value.dob {
-    color: #000000; /* Black DOB matching reference */
+    color: #822934; /* Maroon DOB from first screenshot */
 }
 
 /* Table */
@@ -209,15 +209,15 @@ body {
 }
 
 .results-table th {
-    background-color: #98FB98; /* Exact Light Green from screenshot */
-    border: 1px solid #000;
+    background-color: #92EC90; /* Green from user */
+    border: 1px solid #777;
     padding: 4px;
     font-size: 15px;
     color: #000;
 }
 
 .results-table td {
-    border: 1px solid #000;
+    border: 1px solid #777;
     padding: 3px;
     text-align: center;
     font-size: 14px;
@@ -225,20 +225,20 @@ body {
 }
 
 .result-pass {
-    color: #000000; /* Black - matching reference screenshot */
+    color: #000000; /* Black PASS text */
     font-weight: bold;
 }
 
 .results-table tr:nth-child(odd) {
-    background-color: #FFFFFF; /* White rows for odd */
+    background-color: #FFFEDF; /* Yellow from user */
 }
 
 .results-table tr:nth-child(even) {
-    background-color: #98FB98; /* Light green rows for even */
+    background-color: #92EC90; /* Green from user */
 }
 
 .results-table thead tr {
-    background-color: #98FB98 !important;
+    background-color: #92EC90 !important;
 }
 
 /* Legend & Footer */
